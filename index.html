@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HeadPhone Website</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+
+    <!-- Bootstrap linking  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- fontawesome script  -->
+    <script
+      src="https://kit.fontawesome.com/8c3d9b5c91.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <!-- Navbar section  -->
+      <section
+        class="container d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 border-bottom"
+      >
+        <div class="col-md-3 mb-2 mb-md-0">
+          <a
+            href="/"
+            class="d-inline-flex link-body-emphasis text-decoration-none"
+          >
+            <img src="./images/ElectronLogo.png" alt="" height="48px" />
+          </a>
+        </div>
+
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+          <li>
+            <a href="#" class="nav-link px-2 link-secondary navcolor">Home</a>
+          </li>
+          <li><a href="#" class="nav-link px-2 navcolor">Category</a></li>
+          <li><a href="#" class="nav-link px-2 navcolor">About Us</a></li>
+          <li><a href="#" class="nav-link px-2 navcolor">FAQ</a></li>
+          <li><a href="#" class="nav-link px-2 navcolor">Blog</a></li>
+          <li><a href="#" class="nav-link px-2 navcolor">Contact</a></li>
+        </ul>
+
+        <div class="col-md-3 text-end">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </section>
+
+      <!-- Background header image and content  -->
+      <section>
+        <div
+          class="bg-image"
+          style="
+            background-image: url('../images/BG-image1.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+          "
+        >
+          <div
+            class="container d-flex align-items-center justify-content-between"
+          >
+            <div class="text center me-5">
+              <h4 class="fs-6 fw-bold mb-4 firstColor">
+                <i class="fa-regular fa-star"></i> Top Product of The Month
+              </h4>
+              <h1 class="fw-bolder titleColor mb-3 lh-sm">
+                Micropack MHP <br />HeadPhone Black
+              </h1>
+              <p class="me-5 textcolor mb-5">
+                The Micropack Headphone offers stereo PC headset with <br />
+                volume control, a flexible mic arm, adjustable headband.
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary align-items-center justify-content-center"
+              >
+                Shop Now <i class="ps-2 fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+
+            <div class="me-5">
+              <img
+                src="images/headphone11.png"
+                alt="Headphone"
+                width="610rem"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <!-- Browse by Category section  -->
+      <section class="container mt-5 mb-5">
+        <div class="d-flex justify-content-between mb-3">
+          <p class="fs-2 fw-bolder main-title-color">Browse By Category</p>
+          <div>
+            <span style="color: white">
+              <i
+                class="fa-solid fa-arrow-right border rounded p-md-3 p-2 bg-primary me-2"
+              ></i
+            ></span>
+            <span style="color: white">
+              <i
+                class="fa-solid fa-arrow-left border rounded p-md-3 p-2 bg-primary"
+              ></i
+            ></span>
+          </div>
+        </div>
+
+        <div class="row justify-content-between">
+          <!-- laptop  -->
+          <div
+            class="card col-12"
+            style="color: rgb(25, 25, 141); width: 10rem"
+          >
+            <span class="mx-auto" style="font-size: 4rem"
+              ><i class="fa-solid fa-laptop"></i
+            ></span>
+            <div class="card-body mx-auto">
+              <p class="card-text textcolor">Laptop</p>
+            </div>
+          </div>
+          <!-- Phone  -->
+          <div
+            class="card col-12"
+            style="color: rgb(50, 50, 239); width: 10rem"
+          >
+            <span class="mx-auto" style="font-size: 4rem"
+              ><i class="fa-solid fa-mobile-retro"></i
+            ></span>
+            <div class="card-body mx-auto">
+              <p class="card-text textcolor">Phone</p>
+            </div>
+          </div>
+          <!-- Watch  -->
+          <div
+            class="card col-12"
+            style="color: rgb(145, 59, 225); width: 10rem"
+          >
+            <span class="mx-auto" style="font-size: 4rem"
+              ><i class="fa-solid fa-clock"></i
+            ></span>
+            <div class="card-body mx-auto">
+              <p class="card-text textcolor">Watch</p>
+            </div>
+          </div>
+          <!-- Camera  -->
+          <div
+            class="card col-12"
+            style="color: rgb(108, 54, 159); width: 10rem"
+          >
+            <span class="mx-auto" style="font-size: 4rem"
+              ><i class="fa-solid fa-camera-retro"></i
+            ></span>
+
+            <!-- <img src="..." class="card-img-top" alt="..." /> -->
+            <div class="card-body mx-auto">
+              <p class="card-text textcolor">Camera</p>
+            </div>
+          </div>
+          <!-- Headphone  -->
+          <div
+            class="card col-12"
+            style="color: rgb(205, 145, 54); width: 10rem"
+          >
+            <span class="mx-auto" style="font-size: 4rem"
+              ><i class="fa-solid fa-headphones"></i
+            ></span>
+            <div class="card-body mx-auto">
+              <p class="card-text textcolor">Headphones</p>
+            </div>
+          </div>
+          <!-- Video Game  -->
+          <div
+            class="card col-12"
+            style="color: rgb(155, 107, 49); width: 10rem"
+          >
+            <span class="mx-auto" style="font-size: 4rem"
+              ><i class="fa-solid fa-gamepad"></i
+            ></span>
+            <div class="card-body mx-auto">
+              <p class="card-text textcolor">Video Game</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Products section -->
+      <section class="container mb-5">
+        <!-- Title  -->
+        <div class="d-flex justify-content-between mb-2">
+          <p class="fs-2 fw-bolder main-title-color">Featured Product</p>
+          <div>
+            <button
+              type="button"
+              class="btn btn-primary align-items-center justify-content-center px-4 py-2"
+            >
+              View All Product <i class="ps-2 fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- content  -->
+        <div class="row justify-content-between">
+          <!-- ASUS  -->
+          <div class="col-12 col-md-3 card noBorder" style="width: 18rem">
+            <div
+              class="BG-category mx-auto mt-4 card py-4 px-4"
+              style="width: 16rem; height: 16rem"
+            >
+              <img
+                src="./images/mouse.png"
+                class="card-img-top mx-auto mb-2"
+                alt="mouse"
+              />
+
+              <div>
+                <button
+                  type="button"
+                  class="btn btn-primary px-2 py-1 textcolor me-2"
+                >
+                  Add to cart
+                </button>
+                <span style="color: #b4b7bd; background-color: #ffffff">
+                  <i
+                    class="fa-regular fa-eye border rounded p-md-2 p-1 me-1"
+                  ></i
+                ></span>
+                <span style="color: #b4b7bd; background-color: #ffffff">
+                  <i class="fa-solid fa-heart border rounded p-md-2 p-1"></i
+                ></span>
+              </div>
+            </div>
+
+            <div class="card-body marginT">
+              <p class="card-text textcolor marginB">
+                ASUS W100 optical Wireless house
+              </p>
+              <span style="color: #ffc12b; font-size: 0.8rem"
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <h6 class="fw-bold">$129.00</h6>
+            </div>
+          </div>
+          <!-- Headphone  -->
+          <div class="col-12 col-md-3 card noBorder" style="width: 18rem">
+            <div
+              class="BG-category mx-auto mt-4 card py-4 px-4"
+              style="width: 16rem; height: 16rem"
+            >
+              <img
+                src="./images/Headphone1.png"
+                class="card-img-top mx-auto mb-2"
+                alt="mouse"
+                style="width: 10rem; height: 11rem"
+              />
+            </div>
+
+            <div class="card-body marginT">
+              <p class="card-text textcolor marginB">
+                Logiteh H200 STEREO Headset
+              </p>
+              <span style="color: #ffc12b; font-size: 0.8rem"
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <h6 class="fw-bold">$349.00</h6>
+            </div>
+          </div>
+          <!-- Camera  -->
+          <div class="col-12 col-md-3 card noBorder" style="width: 18rem">
+            <div
+              class="BG-category mx-auto mt-4 card py-4 px-4"
+              style="width: 16rem; height: 16rem"
+            >
+              <img
+                src="./images/NikonCamera.png"
+                class="card-img-top mx-auto mb-2"
+                alt="mouse"
+                style="width: 10rem; height: 11rem"
+              />
+            </div>
+
+            <div class="card-body marginT">
+              <p class="card-text textcolor marginB">
+                X99 Mirrorless Digital Camera
+              </p>
+              <span style="color: #ffc12b; font-size: 0.8rem"
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <h6 class="fw-bold">$239.00</h6>
+            </div>
+          </div>
+          <!-- Headphone2  -->
+          <div class="col-12 col-md-3 card noBorder" style="width: 18rem">
+            <div
+              class="BG-category mx-auto mt-4 card py-4 px-4"
+              style="width: 16rem; height: 16rem"
+            >
+              <img
+                src="./images/Headphone2.png"
+                class="card-img-top mx-auto mb-2"
+                alt="mouse"
+                style="width: 10rem; height: 11rem"
+              />
+            </div>
+
+            <div class="card-body marginT">
+              <p class="card-text textcolor marginB">
+                ASUS M220 Gaming Headphone
+              </p>
+              <span style="color: #ffc12b; font-size: 0.8rem"
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <h6 class="fw-bold">$249.00</h6>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 card noBorder" style="width: 18rem">
+            <div
+              class="BG-category mx-auto mt-4 card py-4 px-4"
+              style="width: 16rem; height: 16rem"
+            >
+              <img
+                src="./images/Headphone1.png"
+                class="card-img-top mx-auto mb-2"
+                alt="mouse"
+                style="width: 10rem; height: 11rem"
+              />
+            </div>
+
+            <div class="card-body marginT">
+              <p class="card-text textcolor marginB">
+                ASUS W100 optical Wireless house
+              </p>
+              <span style="color: #ffc12b; font-size: 0.8rem"
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <h6 class="fw-bold">$129.00</h6>
+            </div>
+          </div>
+          <!-- Laptop  -->
+          <div class="col-12 col-md-3 card noBorder" style="width: 18rem">
+            <div
+              class="BG-category mx-auto mt-4 card py-4 px-4"
+              style="width: 16rem; height: 16rem"
+            >
+              <img
+                src="./images/Laptop.png"
+                class="card-img-top mx-auto mb-2"
+                alt="mouse"
+                style="width: 10rem; height: 11rem"
+              />
+            </div>
+
+            <div class="card-body marginT">
+              <p class="card-text textcolor marginB">ASUS W100 Laptop</p>
+              <span style="color: #ffc12b; font-size: 0.8rem"
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <h6 class="fw-bold">$1,129.00</h6>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 card noBorder" style="width: 18rem">
+            <div
+              class="BG-category mx-auto mt-4 card py-4 px-4"
+              style="width: 16rem; height: 16rem"
+            >
+              <img
+                src="./images/Headphone1.png"
+                class="card-img-top mx-auto mb-2"
+                alt="mouse"
+                style="width: 10rem; height: 11rem"
+              />
+            </div>
+
+            <div class="card-body marginT">
+              <p class="card-text textcolor marginB">
+                ASUS W100 optical Wireless house
+              </p>
+              <span style="color: #ffc12b; font-size: 0.8rem"
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <h6 class="fw-bold">$129.00</h6>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 card noBorder" style="width: 18rem">
+            <div
+              class="BG-category mx-auto mt-4 card py-4 px-4"
+              style="width: 16rem; height: 16rem"
+            >
+              <img
+                src="./images/Headphone1.png"
+                class="card-img-top mx-auto mb-2"
+                alt="mouse"
+                style="width: 10rem; height: 11rem"
+              />
+            </div>
+
+            <div class="card-body marginT">
+              <p class="card-text textcolor marginB">
+                ASUS W100 optical Wireless house
+              </p>
+              <span style="color: #ffc12b; font-size: 0.8rem"
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star me-1"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+              <h6 class="fw-bold">$129.00</h6>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- New Arrivals  -->
+      <section>
+        <div class="container mb-5">
+          <div class="d-flex justify-content-between mb-2">
+            <p class="fs-2 fw-bolder main-title-color">New Arrivals</p>
+            <div>
+              <button
+                type="button"
+                class="btn btn-primary align-items-center justify-content-center px-4 py-2"
+              >
+                View All Product <i class="ps-2 fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="d-flex">
+            <div class="width:50%;">
+              <div
+                class="bg-image"
+                style="
+                  background-image: url('../images/BG-image1.jpg');
+                  background-size: center;
+                  background-position: center;
+                  height: 80vh;
+                "
+              >
+                <div
+                  class="container d-flex align-items-center justify-content-between"
+                >
+                  <div class="text center me-5">
+                    <h4 class="fs-6 fw-bold mb-4 firstColor">
+                      <i class="fa-regular fa-star"></i> Top Product of The
+                      Month
+                    </h4>
+                    <h1 class="fw-bolder titleColor mb-3 lh-sm">
+                      Micropack MHP <br />HeadPhone Black
+                    </h1>
+                    <p class="me-5 textcolor mb-5">
+                      The Micropack Headphone offers stereo PC headset with
+                      <br />
+                      volume control, a flexible mic arm, adjustable headband.
+                    </p>
+                    <button
+                      type="button"
+                      class="btn btn-primary align-items-center justify-content-center"
+                    >
+                      Shop Now <i class="ps-2 fa-solid fa-arrow-right"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="d-flex justify-content-between">
+                <div class="card" style="width: 18rem">
+                  <div
+                    class="BG-category mx-auto mt-4 card py-4 px-4"
+                    style="width: 16rem; height: 16rem"
+                  >
+                    <img
+                      src="./images/Headphone1.png"
+                      class="card-img-top mx-auto mb-2"
+                      alt="mouse"
+                      style="width: 10rem; height: 11rem"
+                    />
+                  </div>
+
+                  <div class="card-body marginT">
+                    <p class="card-text textcolor marginB">
+                      Logiteh H200 STEREO Headset
+                    </p>
+                    <span style="color: #ffc12b; font-size: 0.8rem"
+                      ><i class="fa-solid fa-star me-1"></i
+                      ><i class="fa-solid fa-star me-1"></i
+                      ><i class="fa-solid fa-star me-1"></i
+                      ><i class="fa-solid fa-star me-1"></i
+                      ><i class="fa-solid fa-star"></i
+                    ></span>
+                    <h6 class="fw-bold">$349.00</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Weekend Discount banner  -->
+      <section class="container mb-5">
+        <div
+          class="bg-image rounded"
+          style="
+            background-image: url('../images/BG-image1.jpg');
+            background-size: center;
+            background-position: center;
+            height: 65vh;
+            border-radius: 2rem;
+          "
+        >
+          <div
+            class="container d-flex align-items-center justify-content-between"
+          >
+            <div class="text center me-5 ms-5">
+              <h4 class="fs-6 fw-bold mb-4 firstColor">
+                <i class="fa-regular fa-star"></i> Top Product of The Month
+              </h4>
+              <h1 class="fw-bolder titleColor mb-3 lh-sm">
+                Micropack MHP <br />HeadPhone Black
+              </h1>
+              <p class="me-5 textcolor mb-5">
+                The Micropack Headphone offers stereo PC headset with <br />
+                volume control, a flexible mic arm, adjustable headband.
+              </p>
+              <button
+                type="button"
+                class="btn btn-primary align-items-center justify-content-center"
+              >
+                Shop Now <i class="ps-2 fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+
+            <div class="me-5">
+              <img
+                src="images/HeadphoneBG1.png"
+                alt="Headphone"
+                width="510rem"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- customer support  -->
+      <section class="container-fliud py-5 supportColor-BG">
+        <div class="row justify-content-around mx-5">
+          <!-- Free shipping  -->
+          <div class="card" style="width: 18rem">
+            <span
+              class="mx-auto"
+              style="color: rgb(25, 25, 141); font-size: 4rem"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></span>
+            <div class="card-body text-center mx-auto">
+              <h6 class="fw-bold">Free Shipping</h6>
+              <p class="card-text textcolor">
+                Our free shipping policy applies to all orders, regardless of
+                order values or destination.
+              </p>
+            </div>
+          </div>
+          <!-- secure payment  -->
+          <div class="card" style="width: 18rem">
+            <span
+              class="mx-auto"
+              style="color: rgb(173, 75, 209); font-size: 4rem"
+              ><i class="fa-solid fa-laptop"></i
+            ></span>
+            <div class="card-body text-center mx-auto">
+              <h6 class="fw-bold">Secure Payment</h6>
+              <p class="card-text textcolor">
+                Your payment is always safe secure, and protected at all times.
+              </p>
+            </div>
+          </div>
+          <!-- support online  -->
+          <div class="card" style="width: 18rem">
+            <span
+              class="mx-auto"
+              style="color: rgb(215, 195, 65); font-size: 4rem"
+              ><i class="fa-solid fa-mobile-retro"></i
+            ></span>
+            <div class="card-body text-center mx-auto">
+              <h6 class="fw-bold">Support Online 24/7</h6>
+              <p class="card-text textcolor">
+                We are available 24/7 to assist you with any question, or issues
+                you may have.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container my-5">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <h1>Join Us & Get updates</h1>
+            <p class="textcolor">
+              Sign up exclusive offers, latest news and updates
+            </p>
+          </div>
+
+          <div class="col-12 col-md-6 align-middle mb-5">
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Enter Email Address"
+                aria-label="Search"
+              />
+              <button class="btn btn-primary px-4 py-2 ms-2" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container border-top">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5">
+        <div class="col mb-3">
+          <a
+            href="/"
+            class="d-flex align-items-center mb-2 link-body-emphasis text-decoration-none"
+          >
+            <img src="./images/ElectronLogo.png" alt="Brand Logo"  width="155" height="87" />
+          </a>
+          <p class="text-body-secondary">© 2024</p>
+        </div>
+
+        <div class="col mb-3"></div>
+
+        <div class="col mb-3">
+          <h5>Get to Know Us</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">About Us</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary"
+                >News & Blog</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary"
+                >Contact Us</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Careers</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary"
+                >How To Shop</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="col mb-3">
+          <h5>Order & Returns</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary"
+                >Shopping & Delivery</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary"
+                >Return & Exchange</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary"
+                >Track Order</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary"
+                >Selling Tips</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Payment</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col mb-3">
+          <h5>Contact</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary"
+                >(702) 527 0486</2a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary"
+                >electro@example.com</a
+              >
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary"
+                >4517 Washington Ave. <br />Manchester, Kentucky 495</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <section
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <ul class="nav col-md-4 list-unstyled d-flex">
+          <li class="ms-3 py-1 px-2 rounded BG-category">
+            <img
+              src="./images/MasterCardLogo.png"
+              alt="MasterCard Logo"
+              width="24"
+              height="22"
+            />
+          </li>
+          <li class="ms-3 py-1 px-2 rounded BG-category">
+            <img
+              src="./images/GooglePayLogo.png"
+              alt="MasterCard Logo"
+              width="24"
+              height="22"
+            />
+          </li>
+          <li class="ms-3 py-1 px-2 rounded BG-category">
+            <img
+              src="./images/VisaLogo.png"
+              alt="MasterCard Logo"
+              width="24"
+              height="22"
+            />
+          </li>
+          <li class="ms-3 py-1 px-2 rounded BG-category">
+            <img
+              src="./images/MasterCardLogo.png"
+              alt="MasterCard Logo"
+              width="24"
+              height="22"
+            />
+          </li>
+        </ul>
+
+        <div class="col-md-4 d-flex justify-content-end">
+          <p class="me-3">Privacy policy</p>
+          <p class="me-3">Terms of Use</p>
+          <p>Shipping policy</p>
+        </div>
+      </section>
+    </footer>
+
+    <!-- bootstrap Script  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
